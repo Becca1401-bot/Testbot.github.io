@@ -256,7 +256,7 @@ a:hover{
 .img-responsive{
     max-width:100%;
     height:auto; 
-   
+   margin:30px 0px;
     display:block; 
 }
 .picture-responsive{
@@ -269,8 +269,10 @@ a:hover{
 .white-box{
    background-color:white;
     padding:1px 36px;
-   
-    
+}
+ .black-box{
+   background-color:black;
+    padding:1px 36px;   
     
 }
 .white{
@@ -630,7 +632,7 @@ td a:link{
     .img-responsive{
     width:100%;
     height:auto; 
-    
+   
     display:block; 
     }
 }
