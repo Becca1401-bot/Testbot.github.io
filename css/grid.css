@@ -1,0 +1,299 @@
+.grid {
+  
+   background:white;
+    width:auto;
+    position:relative;
+    margin:auto;
+    
+  
+
+    
+  
+
+}
+
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+[class*='col-'] {
+    float: left;
+    padding-bottom: 20px;
+    
+    
+}
+
+
+.col-1-3 {
+    width: 32%;
+/*    padding:10px 0px 5px 10px ;*/
+
+
+}
+.col-2-3 {   
+    width:66.66%;
+    float:right;
+    
+  
+}
+
+.col-2-3 table{   
+    width:106%;
+
+  
+
+
+    
+}
+
+
+
+.col-1-4 {
+    width: 25%;
+
+}
+
+.col-3-4 {
+    width: 75%;
+    
+
+}
+.col-1-2 {
+    width: 50%;
+
+
+}
+
+.col-1 {
+    width: 100%;
+
+}
+[class*='col-']:  last-of-type{
+    padding-bottom:20px;
+
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pictures {
+  
+   
+
+    margin:auto;
+    
+    max-width: 980px;
+    padding:35px 0px 0px 0px;
+    
+
+  
+
+}
+
+.line-third {
+    width: 32%;
+
+    margin-top:10px;
+}
+.line-second {
+   width: 32%;
+    margin-top:10px;
+    
+}
+.line-first{
+   
+    width: 66.6%;
+   ;
+    margin-top:10px;
+   
+}
+
+.pictures:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+[class*='line-'] {
+    float: left;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+@media screen and (max-width: 850px) {
+   
+     [class*="line-"] {
+        width:10%;
+    }
+.col-2-3 table{   
+    width:100%;
+    }}
+
+
+}
+@media screen and (max-width: 760px) {
+   
+     [class*="line-"] {
+        width:100%;
+    }
+.col-2-3 table{   
+    width:100%;
+    }
+    .img-responsive{
+    max-width:100%;
+    height:auto; 
+   
+    display:block; 
+    }
+}
+/*
+ @media (max-width: 768px){
+    .grid{
+        width:auto;
+        
+      }
+          body{
+width:790px;
+              
+        margin:0px 20px 0px 20px;
+     }}
+*/
+
+
+  @media (min-width: 768px){
+    .grid{
+        width:750px;
+        
+      }
+          body{
+width:790px;
+              height:auto;
+        margin:0px 20px 0px 20px;
+    }
+       .col-2-3 form{
+      }
+}
+    
+      
+
+ @media (min-width: 992px){
+    .grid{
+        width:970px;
+      }
+          body{
+width:990px;
+              height:auto;
+        margin:0px 20px 0px 20px;
+     }
+}
+
+
+@media (min-width: 1200px){
+    .grid{
+        width:1170px;
+        
+    }
+             body{
+width:1190px;
+              height:auto;
+        margin:0px 20px 0px 20px;
+     }
+}
+
+
+        
+@media (max-width: 480px) {
+    [class*='col-'] {
+        width: 100%
+    }
+
+    .col-2-3 form {
+        width: auto;
+        background-color: white;
+        padding: 10px;
+
+        float: none;
+        display: block;
+        background-color: white;
+    }
+
+    .col-2-3 table {
+        width: 100%;
+    }
+
+    .white-box {
+        background-color: white;
+        width: auto;
+    }
+
+    .img-responsive {
+        width: 100%;
+        height: auto;
+
+        display: block;
+    }
+   
+
+}
+@media (max-width: 350px) {
+
+.tooltip .popup {
+  visibility: hidden;
+/*  width: 250px;*/
+  background-color: white;
+  color:black;
+  text-align: center;
+  border-radius: 6px;
+    border:2px solid black;
+  padding: 5px 0;
+    width: 120px;
+ top: -5px;
+  left: 105%; 
+
+  
+  position: absolute;
+  
+  z-index: 1;
+}
+}
+    @media (max-width: 268px) {
+        .tooltip .popup {
+  visibility: hidden;
+
+  background-color: white;
+  color:black;
+  text-align: center;
+  border-radius: 6px;
+    border:2px solid black;
+  padding: 5px 0;
+  width: 120px;
+  top: 100%;
+  left: 50%; 
+  margin-left: -60px;
+
+  /* Position the tooltip */
+  position: absolute;
+  
+  z-index: 1;
+}
+}
+        
